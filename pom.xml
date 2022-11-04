@@ -29,6 +29,7 @@
     </site>
   </distributionManagement>
 
+---
   <build>
     <plugins>
       <plugin>
@@ -74,6 +75,18 @@
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>findbugs-maven-plugin</artifactId>
             </plugin>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+      </plugin>
+
+
 
             <plugin>
               <groupId>org.codehaus.mojo</groupId>
